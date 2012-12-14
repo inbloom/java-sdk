@@ -40,6 +40,7 @@ public final class ResourceNames {
     public static final String COMPETENCY_LEVEL_DESCRIPTORS = "competencyLevelDescriptor";
     public static final String COMPETENCY_LEVEL_DESCRIPTOR_TYPES = "competencyLevelDescriptorTypes";
     public static final String COURSES = "courses";
+    public static final String COURSE_TRANSCRIPTS = "courseTranscripts";
     public static final String DISCIPLINE_INCIDENTS = "disciplineIncidents";
     public static final String DISCIPLINE_ACTIONS = "disciplineActions";
     public static final String EDUCATION_ORGANIZATIONS = "educationOrganizations";
@@ -62,18 +63,16 @@ public final class ResourceNames {
     public static final String TEACHERS = "teachers";
     public static final String GRADES = "grades";
 
-    public static final String SCHOOL_SESSION_ASSOCIATIONS = "school-session-associations";
-    public static final String SECTION_ASSESSMENT_ASSOCIATIONS = "section-assessment-associations";
+    public static final String SCHOOL_SESSION_ASSOCIATIONS = "schoolSessionAssociations";
     public static final String COURSE_OFFERINGS = "courseOfferings";
-    public static final String STUDENT_ASSESSMENT_ASSOCIATIONS = "student-assessment-associations";
-    public static final String STUDENT_SECTION_ASSOCIATIONS = "student-section-associations";
-    public static final String STUDENT_SCHOOL_ASSOCIATIONS = "student-school-associations";
-    public static final String TEACHER_SCHOOL_ASSOCIATIONS = "teacher-school-associations";
-    public static final String TEACHER_SECTION_ASSOCIATIONS = "teacher-section-associations";
-    public static final String STAFF_EDUCATION_ORGANIZATION_ASSOCIATIONS = "staff-educationOrganization-associations";
-    public static final String STUDENT_TRANSCRIPT_ASSOCIATIONS = "studentTranscriptAssociations";
-    public static final String STUDENT_PARENT_ASSOCIATIONS = "student-parent-associations";
-    public static final String STUDENT_DISCIPLINE_INCIDENT_ASSOCIATIONS = "student-disciplineIncident-associations";
+    public static final String STUDENT_ASSESSMENTS = "studentAssessments";
+    public static final String STUDENT_SECTION_ASSOCIATIONS = "studentSectionAssociations";
+    public static final String STUDENT_SCHOOL_ASSOCIATIONS = "studentSchoolAssociations";
+    public static final String TEACHER_SCHOOL_ASSOCIATIONS = "teacherSchoolAssociations";
+    public static final String TEACHER_SECTION_ASSOCIATIONS = "teacherSectionAssociations";
+    public static final String STAFF_EDUCATION_ORGANIZATION_ASSOCIATIONS = "staffEducationOrganizationAssociations";
+    public static final String STUDENT_PARENT_ASSOCIATIONS = "studentParentAssociations";
+    public static final String STUDENT_DISCIPLINE_INCIDENT_ASSOCIATIONS = "studentDisciplineIncidentAssociations";
     public static final String STAFF_PROGRAM_ASSOCIATIONS = "staffProgramAssociations";
     public static final String STAFF_COHORT_ASSOCIATIONS = "staffCohortAssociations";
     public static final String STUDENT_COHORT_ASSOCIATIONS = "studentCohortAssociations";
@@ -97,13 +96,12 @@ public final class ResourceNames {
         SINGULAR_LINK_NAMES.put(ResourceNames.STUDENT_SCHOOL_ASSOCIATIONS, "getStudentSchoolAssociation");
         SINGULAR_LINK_NAMES.put(ResourceNames.TEACHER_SCHOOL_ASSOCIATIONS, "getTeacherSchoolAssociation");
         SINGULAR_LINK_NAMES.put(ResourceNames.TEACHER_SECTION_ASSOCIATIONS, "getTeacherSectionAssociation");
-        SINGULAR_LINK_NAMES.put(ResourceNames.SECTION_ASSESSMENT_ASSOCIATIONS, "getSectionAssessmentAssociation");
         SINGULAR_LINK_NAMES.put(ResourceNames.COURSE_OFFERINGS, "getCourseOffering");
-        SINGULAR_LINK_NAMES.put(ResourceNames.STUDENT_ASSESSMENT_ASSOCIATIONS, "getStudentAssessment");
+        SINGULAR_LINK_NAMES.put(ResourceNames.STUDENT_ASSESSMENTS, "getStudentAssessment");
         SINGULAR_LINK_NAMES.put(ResourceNames.STUDENT_SECTION_ASSOCIATIONS, "getStudentSectionAssociation");
         SINGULAR_LINK_NAMES.put(ResourceNames.STAFF_EDUCATION_ORGANIZATION_ASSOCIATIONS,
                 "getStaffEducationOrgAssignmentAssociation");
-        SINGULAR_LINK_NAMES.put(ResourceNames.STUDENT_TRANSCRIPT_ASSOCIATIONS, "getCourseTranscript");
+        SINGULAR_LINK_NAMES.put(ResourceNames.COURSE_TRANSCRIPTS, "getCourseTranscript");
         SINGULAR_LINK_NAMES.put(ResourceNames.STUDENT_PARENT_ASSOCIATIONS, "getStudentParentAssociation");
         SINGULAR_LINK_NAMES.put(ResourceNames.STUDENT_DISCIPLINE_INCIDENT_ASSOCIATIONS,
                 "getStudentDisciplineIncidentAssociation");

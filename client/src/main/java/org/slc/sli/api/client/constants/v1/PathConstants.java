@@ -34,9 +34,8 @@ public class PathConstants {
     public static final String TEACHER_SCHOOL_ASSOCIATIONS = "teacherSchoolAssociations";
     public static final String TEACHER_SECTION_ASSOCIATIONS = "teacherSectionAssociations";
     public static final String SCHOOL_SESSION_ASSOCIATIONS = "schoolSessionAssociations";
-    public static final String SECTION_ASSESSMENT_ASSOCIATIONS = "sectionAssessmentAssociations";
     public static final String COURSE_OFFERINGS = "courseOfferings";
-    public static final String STUDENT_ASSESSMENT_ASSOCIATIONS = "studentAssessments";
+    public static final String STUDENT_ASSESSMENTS = "studentAssessments";
     public static final String STUDENT_SECTION_ASSOCIATIONS = "studentSectionAssociations";
     public static final String STAFF_EDUCATION_ORGANIZATION_ASSOCIATIONS = "staffEducationOrgAssignmentAssociations";
     public static final String EDUCATION_ORGANIZATION_ASSOCIATIONS = "educationOrganizationAssociations";
@@ -82,6 +81,8 @@ public class PathConstants {
 
     public static final String CUSTOM_ENTITIES = "custom";
 
+    public static final String AGGREGATES = "aggregates";
+
     /**
      * Paths to various helper functions
      */
@@ -111,12 +112,11 @@ public class PathConstants {
         TEMP_MAP.put(ResourceNames.TEACHER_SCHOOL_ASSOCIATIONS, TEACHER_SCHOOL_ASSOCIATIONS);
         TEMP_MAP.put(ResourceNames.TEACHER_SECTION_ASSOCIATIONS, TEACHER_SECTION_ASSOCIATIONS);
         TEMP_MAP.put(ResourceNames.SCHOOL_SESSION_ASSOCIATIONS, SCHOOL_SESSION_ASSOCIATIONS);
-        TEMP_MAP.put(ResourceNames.SECTION_ASSESSMENT_ASSOCIATIONS, SECTION_ASSESSMENT_ASSOCIATIONS);
         TEMP_MAP.put(ResourceNames.COURSE_OFFERINGS, COURSE_OFFERINGS);
-        TEMP_MAP.put(ResourceNames.STUDENT_ASSESSMENT_ASSOCIATIONS, STUDENT_ASSESSMENT_ASSOCIATIONS);
+        TEMP_MAP.put(ResourceNames.STUDENT_ASSESSMENTS, STUDENT_ASSESSMENTS);
         TEMP_MAP.put(ResourceNames.STUDENT_SECTION_ASSOCIATIONS, STUDENT_SECTION_ASSOCIATIONS);
         TEMP_MAP.put(ResourceNames.STAFF_EDUCATION_ORGANIZATION_ASSOCIATIONS, STAFF_EDUCATION_ORGANIZATION_ASSOCIATIONS);
-        TEMP_MAP.put(ResourceNames.STUDENT_TRANSCRIPT_ASSOCIATIONS, COURSE_TRANSCRIPTS);
+        TEMP_MAP.put(ResourceNames.COURSE_TRANSCRIPTS, COURSE_TRANSCRIPTS);
         TEMP_MAP.put(ResourceNames.STUDENT_PARENT_ASSOCIATIONS, STUDENT_PARENT_ASSOCIATIONS);
         TEMP_MAP.put(ResourceNames.STUDENT_PROGRAM_ASSOCIATIONS, STUDENT_PROGRAM_ASSOCIATIONS);
         TEMP_MAP.put(ResourceNames.STAFF_PROGRAM_ASSOCIATIONS, STAFF_PROGRAM_ASSOCIATIONS);
