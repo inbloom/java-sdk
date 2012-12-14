@@ -13,15 +13,21 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
+ package org.slc.sli.api.client;
 
-package org.slc.sli.api.client;
-
+/**
+ * Generic exception used primarily by the SLIClient implementation.
+ *
+ * @author Stephan Altmueller
+ *
+ */
+@SuppressWarnings("serial")
 public class SLIClientException extends Exception {
-	public SLIClientException() {
-		super();
-	}
+    public SLIClientException() {
+        super();
+    }
 
-	public SLIClientException(String msg) {
-		super(msg);
-	}
+    public SLIClientException(String msg) {
+        super(msg);
+    }
 }
